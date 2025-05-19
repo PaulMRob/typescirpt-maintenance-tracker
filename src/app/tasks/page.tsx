@@ -45,9 +45,8 @@ export default function TaskListPage() {
 
   return (
     <main className="p-6">
-        <div className="bg-blue-500 text-white p-4">
-            Tailwind is working!
-        </div>
+        <h1 className="text-4xl font-bold text-red-600">Tailwind is Working</h1>
+
       <h1 className="text-2xl font-bold mb-4">Gym Maintenance Tasks</h1>
       <Link href="/tasks/new" className="text-blue-600 hover:underline">
         + New Task
